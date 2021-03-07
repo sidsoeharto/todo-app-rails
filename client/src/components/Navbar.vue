@@ -6,7 +6,12 @@
     max-height=64px
   >
     <v-toolbar-title>
-      To-Do App
+      <router-link
+        style="text-decoration: none; color: inherit;"
+        to='/'
+      >
+        To-Do App
+      </router-link>
     </v-toolbar-title>
 
     <v-spacer />

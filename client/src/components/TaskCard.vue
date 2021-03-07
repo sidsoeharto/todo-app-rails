@@ -1,12 +1,11 @@
 <template>
   <v-card
-    width="600"
     outlined
     rounded
   >
     <v-row>
       <v-col
-        cols="10"
+        cols="lg 10"
         class="flex-grow-1 flex-shrink-0"
       >
         <v-card-title>
@@ -22,15 +21,15 @@
       </v-col>
       <v-col
         cols="2"
-        class="flex-grow-1 flex-shrink-0"
-        align
-        justify
+        align="center"
+        justify="center"
       >
-        <v-card-actions>
-          <div>
-            <v-checkbox></v-checkbox>
-          </div>
-        </v-card-actions>
+        <div>
+          <v-checkbox
+            label="Completed"
+          ></v-checkbox>
+        </div>
+        <v-divider></v-divider>
       </v-col>
     </v-row>
     <v-row
@@ -38,7 +37,7 @@
       align="end"
     >
       <v-col
-        cols="12"
+        cols="lg 12"
         class="px-6 pb-8 pt-0"
         align-self="end"
       >
